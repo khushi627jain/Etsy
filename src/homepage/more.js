@@ -14,6 +14,12 @@ import {
   import {LiaHandPointRightSolid} from "react-icons/lia"
   import {BsEmojiSmile} from "react-icons/bs"
 import { useEffect,useRef } from 'react';
+import {LiaShippingFastSolid,LiaGiftSolid} from "react-icons/lia"
+import {ImStopwatch} from "react-icons/im"
+import {BsPhoneVibrate} from "react-icons/bs"
+import {BsEnvelopePaperHeart} from "react-icons/bs"
+import {MdOutlineCloudDone} from "react-icons/md"
+import {TfiGift} from "react-icons/tfi"
 
 
 export function CommentBox() {
@@ -217,17 +223,17 @@ function handleMouseLeave(id){
         </Text>
       </Box>
        
-        <Grid alignItems={"center"} justifyContent={"center"} flexWrap={"wrap"} display={"flex"} gap={"10px"}>
-        <GridItem display={"flex"}  >
-          <Image w="20px" src="https:ak-d.tripcdn.com/images/0AS5f120008whj34f2145.png" />
+        <Grid alignItems={"center"} justifyContent={"center"} flexWrap={"wrap"} display={"flex"} gap={["10px","10px","20px",""]}>
+        <GridItem display={"flex"} alignItems={"center"} >
+         <BsEnvelopePaperHeart color="#d51f36" fontSize={"20px"}/>
           <Text ml="6px" fontSize={["x-small","sm","md"]} textDecoration={"underline"} textDecorationLine={"underline"} textDecorationStyle="dashed" paddingBottom="2px" textUnderlineOffset={"7px"}>Budget-Friendly</Text>
         </GridItem> 
-        <GridItem display={"flex"} >
-          <Image w={["15px","20px"]} src="https:ak-d.tripcdn.com/images/0AS6o120009gxfriv28B3.png" />
+        <GridItem display={"flex"} alignItems={"center"} >
+       <MdOutlineCloudDone color="#d51f36" fontSize={"20px"}/>
           <Text ml="6px"  fontSize={["x-small","sm","md"]}  textDecoration={"underline"} textDecorationLine={"underline"} textDecorationStyle="dashed" paddingBottom="2px" textUnderlineOffset={"7px"}>Booking Guarantee</Text>
         </GridItem>
-        <GridItem display={"flex"}>
-          <Image w="20px" src="https:ak-d.tripcdn.com/images/0AS2j120009gxknwsA052.png" />
+        <GridItem display={"flex"} alignItems={"center"}>
+          <TfiGift color="#d51f36" fontSize={"20px"}/>
           <Text ml="6px" fontSize={["x-small","sm","md"]}  textDecoration={"underline"} textDecorationLine={"underline"} textDecorationStyle="dashed" paddingBottom="2px" textUnderlineOffset={"7px"}>High-quality gifts</Text>
         </GridItem>
       </Grid>
@@ -252,9 +258,10 @@ function handleMouseLeave(id){
       <>
       <Box  borderTop={"2px solid gray"}  ></Box>
 <Box display={"grid"} rowGap={"30px"} justifyContent={"center"} m={"auto"} gridTemplateColumns={["repeat(1,1fr)","repeat(2,1fr)","repeat(3,1fr)","repeat(4,1fr)","repeat(4,1fr)"]}
-        w="100%"  pt="40px" pb="40px"  >
-      <Box display={"flex"}  gap={"20px"}>
-          <Image h="100px" w="100px" src="https:www.famousfootwear.com/-/media/project/tenant/famous-footwear/famous-footwear/rewards-images/rewards-refresh-2022/secondary-footer/free_shipping.svg" alt="box" />
+        w="100%" ml="10px"   pt="40px" pb="40px"  >
+      <Box  display={"flex"}  gap={"20px"}>
+          
+     <LiaShippingFastSolid fontSize={"60px"} color='#d51f36'/>
       <Box w={["70%","50%"]}>
           <h4>Free Shipping for some Members</h4>
           <p>Plus, 10% off at your second purchase</p>
@@ -264,7 +271,8 @@ function handleMouseLeave(id){
       
      
       <Box display={"flex"}  gap={"20px"}>
-          <Image h="100px" w="100px" src="https:www.famousfootwear.com/-/media/project/tenant/famous-footwear/famous-footwear/footer/gift-card.svg" alt="box" />
+        
+      <LiaGiftSolid fontSize={"60px"} color="#d51f36"/>
       <Box w={["70%","50%"]}>
           <h4>Famous Gift Cards</h4>
           <p>You can add on free gift cards in your purchase.</p>
@@ -274,7 +282,8 @@ function handleMouseLeave(id){
 
     
       <Box display={"flex"} gap={"20px"}>
-          <Image h="100px" w="100px" src="https:www.famousfootwear.com/-/media/project/tenant/famous-footwear/famous-footwear/footer/ff-pickup.svg" alt="box" />
+         
+     <ImStopwatch fontSize={"60px"} color="#d51f36"/>
       <Box w={["70%","50%"]}>
           <h4>MeghKhush Creation Fast Delivery</h4>
           <p>Order online, delivery asap. Plus, free gifts!</p>
@@ -284,7 +293,8 @@ function handleMouseLeave(id){
 
      
       <Box  display={"flex"} gap={"20px"}>
-          <Image h="100px" w="100px" src="https:www.famousfootwear.com/-/media/project/tenant/famous-footwear/famous-footwear/footer/zip.svg" alt="box" />
+     
+          <BsPhoneVibrate fontSize={"60px"} color="#d51f36"/>
       <Box w={["70%","50%"]}>
       <h3>Flexible Payment Options</h3>
       <p>Your preferred payment method, our pleasure to accept.</p>

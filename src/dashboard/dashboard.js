@@ -293,15 +293,15 @@ function handleVideo(){
         <Input name="realPrice" type="number" placeholder='Enter Original price' />
          {/*Size */}
          <FormLabel>SIZE</FormLabel>
-        <Input name="size" type="text" placeholder='Enter Original price' />
+        <Input name="size" type="text" placeholder='Enter Size' />
         <FormHelperText>Write in the format - 24 by 12 Inch</FormHelperText>
          {/*MAKING TIME */}
          <FormLabel>MAKING TIME</FormLabel>
-        <Input name="makingTime" type="text" placeholder='Enter Original price' />
+        <Input name="makingTime" type="text" placeholder='Enter Making time' />
         <FormHelperText>Write in the format - 3 to 10 days</FormHelperText>
          {/*DELIVERY TIME */}
          <FormLabel>DELIVERY TIME</FormLabel>
-        <Input name="deliveryTime" type="text" placeholder='Enter Original price' />
+        <Input name="deliveryTime" type="text" placeholder='Enter Delivery time' />
         <FormHelperText>Write in the format - 3 to 10 days</FormHelperText>
         {/* popular */}
         <Box display={"flex"} gap={"20px"}><FormLabel>POPULAR</FormLabel>

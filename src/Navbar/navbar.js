@@ -437,29 +437,29 @@ function search(){
                       </Box>
                     </Box>
                     <Box>
-                      {/* <Text>Deepshikha Jain</Text>
-                      <Text>View Your Profile</Text> */}
+                    
                       <Text>{userName}</Text>
                     </Box>
                   </Box>
                   <Box>
-                    <Link to="/dashboard">DASHBOARD</Link>
+                    <Link to="/dashboard"> Go to <span style={{textDecoration:"underline"}}>DASHBOARD</span></Link>
                   </Box>
                 </PopoverHeader>
                 <PopoverArrow bg='blue.800' />
                 <PopoverCloseButton />
                 <PopoverBody w="100%" m="auto" justifyContent={"center"} textAlign={"center"} border={"none"} p="0px">
                   <Box _hover={{ bg: "#d3d3d3" }} alignItems="center" justifyContent={"center"} pt="10px" display={"flex"} m="auto" >
-                    <Box alignItems="center" justifyContent={"center"}  display={"flex"}>
+                    <Box alignItems="center" justifyContent={"center"} gap={"15px"}  display={"flex"}>
                       <Link to="">
                         <GoCodeReview fontSize={"30px"} />
                       </Link>
-                    </Box>
-                    <Box alignItems="center" justifyContent={"center"}  display={"flex"}>
+                      <Box alignItems="center" justifyContent={"center"}  display={"flex"}>
                       <Link to="">
                         <Text align={"center"} onClick={logOut}>Log Out</Text>
                       </Link>
                     </Box>
+                    </Box>
+                   
                   </Box>
                 </PopoverBody>
                 <PopoverFooter
