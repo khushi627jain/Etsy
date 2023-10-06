@@ -1,0 +1,47 @@
+.discover-card:hover .discover-card-line {
+display: block;
+
+}
+.discover-card-line{
+    display: none;
+}
+.discover-card:hover {
+    color: gray;
+}
+.discover-card-img{
+    transition: transform 0.3s;
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    margin: auto auto 10px auto;
+}
+.discover-card-img:hover{
+    transform: scale(1.5)
+}
+
+.discover-card{
+    position:relative;
+    margin: auto;
+}
+
+
+.recent-heart{
+    visibility: hidden;
+}
+.recent:hover .recent-heart{
+    visibility: visible;
+    
+    }
+
+
+  
+   
+   @media only screen and (max-width:930px) {
+    /* .discover-card-img{
+    transition: transform 0.3s;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 10px;
+} */
+   }

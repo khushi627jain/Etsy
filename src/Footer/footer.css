@@ -1,0 +1,48 @@
+:root{
+    --primary-color:"#fa4a6f"
+}
+
+
+
+
+.footer-main{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+  
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contact-item{
+    display: flex;
+    flex-wrap: wrap;
+   
+   color:"#fa4a65";
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contact-item i{
+    color:#fa4a65;
+
+    padding: 10px;
+    font-size: 40px;
+}
+.footer-main div:first-child{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer-main div{
+    padding:20px;
+    font-family:cursive
+}
+.logo-meghkhush{
+    color:var(--primary-color);
+    font-size: 30px;
+    font-style: inherit;
+    font-family: cursive;
+    font-weight: 1000;
+}
+.last-line{
+
+    color: #fa4a65;
+    width: 100%;
+    border: 2px solid #fa4a65;
+}

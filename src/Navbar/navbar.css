@@ -1,0 +1,180 @@
+.navbar-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.navbar{
+    width: 90%;
+    margin: auto;
+    padding-top: 10px;
+}
+.logo-etsy{
+    color:#e2660f;
+    
+}
+.searchBar{
+  
+    border-radius:50px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px 0px 10px;
+    background-color: #f4f4f4;
+}
+.fa-magnifying-glass{
+    font-size:22px;color: #333f48;
+    
+}
+.search-input-box{
+    width: 900px;
+   
+     
+ 
+}
+#navbar-logo{
+    font-size:20px;color:#333f48;
+}
+.fa-caret-down{
+    color: grey;
+}
+.account{
+    display: flex;
+    align-items: center;
+    gap:5px;  
+}
+.updates{
+    gap:5px;
+    display: flex;
+}
+.profile-user{
+    background-color:#c0c0c0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+.favourite:hover,.basket:hover{
+    border-radius: 50%;
+    background-color:
+    #f4f4f4;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.account:hover,.updates:hover{
+    border-radius: 40%;
+    background-color:
+    #f4f4f4;
+    width: 70px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ................................................................................. */
+.navbar-2{
+    margin-top: 10px;
+}
+.nav-link{
+    list-style: none;
+     display: flex;
+  flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 55px; */
+}
+.main-box{
+    margin: "auto";
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.name-tag{
+    font-size:14px;font-weight: 500;
+}
+.name-tag:hover{
+    text-decoration: underline;
+    text-underline-offset: 14px;
+}
+.hidden-box{
+    display: none;color: black;
+}
+.name-tag:hover + .hidden-box{
+    z-index: 1;
+    position: absolute;
+    display: block;
+}
+
+
+
+
+
+
+.contact-form-inner{
+    /* width: 22%; */
+    /* display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: auto; */
+    padding: 5px;
+}
+
+.contact-form-inner p{
+    margin-left: 10px;margin-right: 10px;
+}
+.contact-form-inner a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center; 
+    /* width: 3rem;
+    height: 3rem; */
+    background: transparent;
+    /* border: .2rem solid pink; */
+    border-radius: 50%;
+    box-shadow: 0 .2rem .5rem pink;
+    font-size: 2rem;
+    color: #fa4a65;
+    /* margin: 2.5rem 1.5rem 3rem 0; */
+    transition: 0.5 ease;
+    
+}
+.contact-form-inner a:hover{
+    background: var(--main-color);
+    color: var(--white-color);
+}
+.nav-link.contact{
+   
+    justify-content: left;
+}
+
+
+
+@media screen and (max-width:1300px) {
+    .search-input-box{
+        width:670px;
+    }
+}
+@media screen and (max-width:1100px) {
+    .search-input-box{
+        width:570px;
+    }
+}
+@media screen and (max-width:960px) {
+    .search-input-box{
+        width:400px;
+    }
+    .name-tag{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:860px) {
+    .search-input-box{
+        width:350px;
+    } 
+}
